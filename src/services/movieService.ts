@@ -25,7 +25,7 @@ export const fetchMovies = async ({
         page,
       },
       headers: {
-        Authorization: Bearer ${import.meta.env.VITE_TMDB_TOKEN},
+        Authorization: `Bearer ${import.meta.env.VITE_TMDB_TOKEN}`,
       },
     }
   );
